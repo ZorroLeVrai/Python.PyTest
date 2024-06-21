@@ -27,7 +27,7 @@ def test_very_slow():
 
 #skip test
 @pytest.mark.skip(reason="This feature is currently broken")
-def test_add():
+def test_add2():
     assert src.add(1,2) == 3
 
 #expect test to fail
